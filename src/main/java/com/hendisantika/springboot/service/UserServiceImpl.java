@@ -76,6 +76,17 @@ public class UserServiceImpl implements UserService{
 		users.add(new User(counter.incrementAndGet(),"Sasuke",40, 50000));
 		users.add(new User(counter.incrementAndGet(),"Sakura",45, 30000));
 		users.add(new User(counter.incrementAndGet(),"Kakashi",50, 40000));
+        users.add(new User(counter.incrementAndGet(), "Minato", 50, 40000));
+        users.add(new User(counter.incrementAndGet(), "Sarutobi", 50, 40000));
+        users.add(new User(counter.incrementAndGet(), "Orochimaru", 50, 40000));
+        users.add(new User(counter.incrementAndGet(), "Jiraiya", 50, 40000));
+        users.add(new User(counter.incrementAndGet(), "Tsunade", 50, 40000));
+        users.add(new User(counter.incrementAndGet(), "Kiba", 50, 40000));
+        users.add(new User(counter.incrementAndGet(), "Hyuuga", 50, 40000));
+        users.add(new User(counter.incrementAndGet(), "Hinata", 50, 40000));
+        users.add(new User(counter.incrementAndGet(), "Shino", 50, 40000));
+        users.add(new User(counter.incrementAndGet(), "Ten-ten", 50, 40000));
+        users.add(new User(counter.incrementAndGet(), "Rock Lee", 50, 40000));
 		return users;
 	}
 
