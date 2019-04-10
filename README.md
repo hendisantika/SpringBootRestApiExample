@@ -148,4 +148,14 @@ Transfer-Encoding: chunked
 ```
 #### Add New User
 #### Delete User by Id
+Request:
+```
+http delete localhost:8080/SpringBootRestApi/api/user/13
+```
+Response:
+```
+HTTP/1.1 204 
+Date: Wed, 10 Apr 2019 12:25:27 GMT
+```
+
 #### Delete All Users
