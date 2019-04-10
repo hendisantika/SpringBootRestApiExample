@@ -14,3 +14,11 @@ cd SpringBootRestApiExample
 
 ### Open your browser :
 http://localhost:8080/SpringBootRestApi
+
+### Open Your Favorite REST Client App (I am using POSTMAN)
+
+#### Get All Users
+#### Get User By Id
+#### Add New User
+#### Delete User by Id
+#### Delete All Users
