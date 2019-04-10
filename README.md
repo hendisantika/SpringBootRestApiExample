@@ -208,9 +208,22 @@ Location: http://localhost:8080/SpringBootRestApi/api/user/16
 
 Request:
 ```
-http put localhost:8080/SpringBootRestApi/api/user/13
+http put localhost:8080/SpringBootRestApi/api/user/13 name=Aburame\ Shino age=50 salary=40000
 ```
 Response:
+```
+HTTP/1.1 200 
+Content-Type: application/json;charset=UTF-8
+Date: Wed, 10 Apr 2019 13:07:02 GMT
+Transfer-Encoding: chunked
+
+{
+    "age": 50,
+    "id": 13,
+    "name": "Aburame Shino",
+    "salary": 40000.0
+}
+```
 #### Delete User by Id
 
 ![Delete User By Id](img/delete.png "Delete User By Id")
