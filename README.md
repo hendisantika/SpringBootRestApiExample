@@ -129,7 +129,7 @@ Transfer-Encoding: chunked
 #### Get User By Id
 Request:
 ```
-http localhost:8080/SpringBootRestApi/api/user/
+http localhost:8080/SpringBootRestApi/api/user/1
 ```
 
 Response:
@@ -156,6 +156,19 @@ Response:
 ```
 HTTP/1.1 204 
 Date: Wed, 10 Apr 2019 12:25:27 GMT
+```
+Cek User that has been deleted
+```
+http localhost:8080/SpringBootRestApi/api/user/1
+
+HTTP/1.1 404 
+Content-Type: application/json;charset=UTF-8
+Date: Wed, 10 Apr 2019 12:26:11 GMT
+Transfer-Encoding: chunked
+
+{
+    "errorMessage": "User with id 13 not found"
+}
 ```
 
 #### Delete All Users
