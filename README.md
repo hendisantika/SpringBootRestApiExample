@@ -153,6 +153,9 @@ Transfer-Encoding: chunked
 }
 ```
 #### Get Unknown user
+
+![Get Unknown User](img/unknown.png "Get Unknown User")
+
 Request:
 ```
 http localhost:8080/SpringBootRestApi/api/user/212
