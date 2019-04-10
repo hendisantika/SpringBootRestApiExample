@@ -172,3 +172,11 @@ Transfer-Encoding: chunked
 ```
 
 #### Delete All Users
+Request:
+```
+http delete localhost:8080/SpringBootRestApi/api/user/
+```
+Response:
+```
+http delete localhost:8080/SpringBootRestApi/api/user/
+```
