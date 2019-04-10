@@ -172,6 +172,36 @@ Transfer-Encoding: chunked
 }
 ```
 #### Add New User
+![Add New User](img/add.png "Add New User")
+
+Request:
+```
+http POST localhost:8080/SpringBootRestApi/api/user/ name=Uchiha\ Madara age=165 salary=75000
+```
+Response:
+```
+POST /SpringBootRestApi/api/user/ HTTP/1.1
+Accept: application/json, */*
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Content-Length: 58
+Content-Type: application/json
+Host: localhost:8080
+User-Agent: HTTPie/1.0.2
+
+{
+    "age": "165",
+    "name": "Uchiha Madara",
+    "salary": "75000"
+}
+
+HTTP/1.1 201 
+Content-Length: 0
+Date: Wed, 10 Apr 2019 12:59:44 GMT
+Location: http://localhost:8080/SpringBootRestApi/api/user/16
+```
+
+
 #### Update User by Id
 
 ![Update User By Id](img/update.png "Update User By Id")
