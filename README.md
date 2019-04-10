@@ -18,6 +18,9 @@ http://localhost:8080/SpringBootRestApi
 ### Open Your Favorite REST Client App (I am using POSTMAN)
 
 #### Get All Users
+
+![Get All Users](img/all.png "Get All Users")
+
 Request:
 ```
 http localhost:8080/SpringBootRestApi/api/user/
@@ -127,6 +130,9 @@ Transfer-Encoding: chunked
 
 
 #### Get User By Id
+
+![Get User By Id](img/find.png "Get User By Id")
+
 Request:
 ```
 http localhost:8080/SpringBootRestApi/api/user/1
@@ -147,7 +153,19 @@ Transfer-Encoding: chunked
 }
 ```
 #### Add New User
+#### Update User by Id
+
+![Update User By Id](img/update.png "Update User By Id")
+
+Request:
+```
+http put localhost:8080/SpringBootRestApi/api/user/13
+```
+Response:
 #### Delete User by Id
+
+![Delete User By Id](img/delete.png "Delete User By Id")
+
 Request:
 ```
 http delete localhost:8080/SpringBootRestApi/api/user/13
