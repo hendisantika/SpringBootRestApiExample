@@ -127,6 +127,25 @@ Transfer-Encoding: chunked
 
 
 #### Get User By Id
+Request:
+```
+http localhost:8080/SpringBootRestApi/api/user/
+```
+
+Response:
+```
+HTTP/1.1 200 
+Content-Type: application/json;charset=UTF-8
+Date: Wed, 10 Apr 2019 12:24:19 GMT
+Transfer-Encoding: chunked
+
+{
+    "age": 30,
+    "id": 1,
+    "name": "Naruto",
+    "salary": 70000.0
+}
+```
 #### Add New User
 #### Delete User by Id
 #### Delete All Users
