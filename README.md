@@ -17,6 +17,8 @@ http://localhost:8080/SpringBootRestApi
 
 ### Open Your Favorite REST Client App (I am using POSTMAN)
 
+And Also I am using [httpie](https://httpie.org/) to test via CLI
+
 #### Get All Users
 
 ![Get All Users](img/all.png "Get All Users")
